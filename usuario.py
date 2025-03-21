@@ -7,3 +7,7 @@ class Usuario:
 
     def agregarTarea(self, tarea):
         self.tareas.append(tarea)
+
+    def listarTareas(self):
+        for tarea in self.tareas:
+            print(f"Elemento es: {tarea}")
